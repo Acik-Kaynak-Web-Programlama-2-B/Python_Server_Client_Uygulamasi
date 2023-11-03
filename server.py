@@ -29,8 +29,8 @@ def clientThread(client):
  
 server = socket(AF_INET, SOCK_STREAM)
  
-ip = '10.100.5.105'
-port = 6666
+ip = '10.100.5.182'
+port = 3333
 server.bind((ip, port))
 server.listen()
 print('Server dinlemede...')
